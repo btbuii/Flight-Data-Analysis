@@ -6,8 +6,8 @@ def main():
     
     connection = MyConnection(
         host='localhost',
-        user='mp',
-        password='eecs118',
+        user='',
+        password='',
         database='flight_data'
     )
     connection.create_connection()
